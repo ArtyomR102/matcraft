@@ -1,7 +1,7 @@
 body {
   padding: 20px;
   background: url("src/background.png");
-  filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .page-container {
@@ -9,5 +9,4 @@ body {
   padding: 10px;
   border-radius: 10px;
   box-shadow: #0007 2px 2px 5px 0px;
-  filter: revert;
 }
