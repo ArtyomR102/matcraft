@@ -29,18 +29,25 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  height: 50px;
+  height: 30px;
 }
 
 .poll-item input {
-  flex-basis: 50px;
+  flex-basis: 30px;
   align-self: flex-start;
+}
+
+.poll-item p {
+  flex-basis: 20px;
+  align-self: flex-start;
+  margin: 0;
 }
 
 .poll-item .progress-bar {
   visibility: hidden;
   width: 0;
-  transition: linear .5s;
+  height: 10px;
+  transition: ease-out .5s;
 }
 
 input:checked ~ .poll-item .progress-bar {
