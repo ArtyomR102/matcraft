@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-content: flex-start;
   height: 30px;
+  margin: 10px 0;
 }
 
 .poll-item input {
