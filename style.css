@@ -22,7 +22,7 @@ body {
 .progress-bar {
   width: 50%;
   background: blue;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 .poll-item {
@@ -52,4 +52,5 @@ body {
 
 input:checked ~ .poll-item .progress-bar {
   visibility: visible;
+  width: 50%;
 }
