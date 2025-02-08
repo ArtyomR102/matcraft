@@ -5,8 +5,11 @@ body {
 }
 
 .page-container {
+  width: fit-content;
   margin: auto;
   padding: 10px;
+  background: linear-gradient(0, lightgray, white);
+  font-family: "Arial";
   border-radius: 10px;
   box-shadow: #0007 2px 2px 5px 0px;
 }
