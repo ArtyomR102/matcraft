@@ -19,8 +19,20 @@ body {
   box-shadow: #0007 2px 2px 5px 0px;
 }
 
+.poll-item {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 50px;
+}
+
+.poll-item input {
+  flex-basis: 50px;
+  align-self: flex-start;
+}
+
 .progress-bar {
-  visible: none;
+  visibility: hidden;
   width: 0;
   transition: linear .5s;
 }
