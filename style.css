@@ -30,7 +30,8 @@ body {
 .poll-item input {
   flex-basis: 30px;
   align-self: flex-start;
-  width: 30px;
+  width: 15px;
+  margin: 0 10px;
 }
 
 .poll-item p {
@@ -40,7 +41,6 @@ body {
 }
 
 .poll-item .progress-bar {
-  width: attr(perc %, 0);
   height: 10px;
   background: blue;
   border-radius: 5px;
