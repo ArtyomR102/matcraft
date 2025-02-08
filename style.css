@@ -19,6 +19,12 @@ body {
   box-shadow: #0007 2px 2px 5px 0px;
 }
 
+.progress-bar {
+  width: max(attr(perc %, 0), 1%);
+  background: blue;
+  border-radius: 50%;
+}
+
 .poll-item {
   display: flex;
   flex-flow: column wrap;
@@ -31,13 +37,14 @@ body {
   align-self: flex-start;
 }
 
-.progress-bar {
+.poll-item 
+
+.poll-item .progress-bar {
   visibility: hidden;
   width: 0;
   transition: linear .5s;
 }
 
-input[type=radio]:checked ~ .progress-bar {
+input:checked ~ .poll-item .progress-bar {
   visibility: visible;
-  width: attr(perc %, 0);
 }
