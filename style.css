@@ -23,12 +23,14 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  align-content: flex-start;
   height: 30px;
 }
 
 .poll-item input {
   flex-basis: 30px;
   align-self: flex-start;
+  width: 30px;
 }
 
 .poll-item p {
