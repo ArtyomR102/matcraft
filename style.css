@@ -19,12 +19,6 @@ body {
   box-shadow: #0007 2px 2px 5px 0px;
 }
 
-.progress-bar {
-  width: 50%;
-  background: blue;
-  border-radius: 5px;
-}
-
 .poll-item {
   display: flex;
   flex-flow: column wrap;
@@ -44,13 +38,8 @@ body {
 }
 
 .poll-item .progress-bar {
-  visibility: hidden;
-  width: 0;
+  width: attr(perc %, 0);
   height: 10px;
-  transition: ease-out .5s;
-}
-
-input:checked ~ .poll-item .progress-bar {
-  visibility: visible;
-  width: 50%;
+  background: blue;
+  border-radius: 5px;
 }
