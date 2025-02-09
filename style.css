@@ -52,6 +52,7 @@ body {
 }
 
 .poll-votes {
+  margin: 0;
   opacity: 50%;
   font-size: small;
 }
